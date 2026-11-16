@@ -1,0 +1,56 @@
+body ,h1 ,h2 {
+    font-family: Playfair Display;
+}
+body ,p{
+    font-family: Montserrat;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #6B3E2E;
+}
+nav ,a ,ul{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    text-decoration: none;
+    color:#2E2A26;
+}
+body ,h1 ,h2 ,p {
+    color:#2E2A26;
+}
+main{
+    background-color: #D8935C;
+}
+article{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#header-hero{
+    display: flex;
+}
+
+#header-hero div, #header-hero img{
+    width: 50%;
+    height: 70vh;
+}
+#header-hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button-header{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    height: 40px;
+    margin: 5%;
+}
